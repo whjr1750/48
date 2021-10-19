@@ -153,7 +153,7 @@ function reset(){
  FoodGroup.destroyEach();
 
  
-   mario.addAnimation("running",mario_running)
+   mario.changeAnimation("mario",mario_running)
   frameCount=0;
   
   
